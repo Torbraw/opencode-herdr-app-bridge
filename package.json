@@ -1,0 +1,11 @@
+{
+  "name": "herdr-app-bridge",
+  "version": "0.1.0",
+  "description": "OpenCode TUI bridge for the Herdr app layout",
+  "private": true,
+  "type": "module",
+  "repository": { "type": "git", "url": "https://github.com/Torbraw/opencode-herdr-app-bridge.git" },
+  "scripts": { "test": "bun test" },
+  "files": ["tui.ts", "sessions.ts", "publisher.ts", "command.ts", "README.md"],
+  "exports": { "./tui": "./tui.ts" }
+}
